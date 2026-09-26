@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import 'tailwindcss';
+
+@theme {
+  --color-vt-black: #0a0a0a;
+  --color-vt-charcoal: #1c1b1b;
+  --color-vt-gold: #c9a84c;
+  --color-vt-gold-light: #e8d5a3;
+  --color-vt-ivory: #faf9f7;
+  --color-vt-cream: #f4f3f1;
+  --color-vt-stone: #e9e8e6;
+  --color-vt-muted: #747878;
+  --color-vt-surface: #efeeec;
+  --color-vt-error: #ba1a1a;
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Cormorant Garamond', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #faf9f7;
+  color: #1c1b1b;
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #c4c7c7; border-radius: 2px; }
